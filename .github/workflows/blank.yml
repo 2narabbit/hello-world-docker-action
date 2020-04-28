@@ -17,7 +17,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: 2narabbit/hello-world-docker-action@v4
+      uses: 2narabbit/hello-world-docker-action@v5
       with:
         who-to-greet: 'Mona the Octocat'
     # Use the output from the `hello` step
